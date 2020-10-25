@@ -5,7 +5,7 @@
     margin: auto auto;
     max-width: 600px;
     width: calc(100% - 2em);
-    vertical-align: top;
+    vertical-align: center;
 }
 
 .input__field {
@@ -13,7 +13,7 @@
     display: block;
     float: center;
     padding: 0.8em;
-    width: 60%;
+    width: 100%;
     border: none;
     border-radius: 0;
     background: #f0f0f0;
@@ -30,8 +30,8 @@
 
 .input__label {
     display: inline-block;
-    float: right;
-    padding: 0 1em;
+    /* float: center; */
+    /* padding: 0 1em; */
     width: 40%;
     color: #6a7989;
     font-weight: bold;
@@ -47,12 +47,12 @@
 .input__label-content {
     position: relative;
     display: inline-block;
-    padding: 1.6em 0;
+    /* padding: 1.6em 0; */
     width: 100%;
 }
 
 .graphic {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     fill: none;
