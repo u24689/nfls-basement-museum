@@ -1,3 +1,7 @@
+.main_body {
+    background-image: url("../images/ib/background.jpg");
+}
+
 .index_container {
     text-align: center;
 }
