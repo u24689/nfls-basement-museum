@@ -1,11 +1,16 @@
-.pages_main_container {
-    background-color: #aadffa;
-}
-
-.image_container {
-    width: 100%;
-}
-
-.details_container {
+.pages_main_body {
+    background-image: url("../images/ib/pages_background.jpg");
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     text-align: center;
+    margin: 0 auto;
+}
+
+.pages_image {
+    width: 60%;
+}
+
+.details {
+    font-family: 'Times New Roman', Times, serif;
 }
