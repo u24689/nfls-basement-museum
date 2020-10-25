@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <script src = './scripts/main.js'></script>
-        <script src = './scripts/image_list.js'></script>
-        <link rel = 'stylesheet' href = './css/main.css'>
-    </head>
 
-    <body class = 'main_body'>
-        <div class = 'index_container'>
-            <h1>
-                test
-            </h1>
+<head>
+    <script src='./scripts/main.js'></script>
+    <script src='./scripts/image_list.js'></script>
+    <link rel='stylesheet' href='./css/main.css'>
+    <link rel='stylesheet' href='./css/input_fields.css'>
+    <link rel='stylesheet' href='./css/demo.css'>
+    <link rel='stylesheet' href='./css/normalize.css'>
+</head>
+
+<body class='main_body'>
+    <div>
+        <h1 style="font-size: 400%;">
+            Nanjing Foreign Language School Basement Museum
+        </h1>
+        <div>
+            <span class="input input--minoru">
+                <input class="input__field input__field--minoru" type="text" id="input">
+            </span>
+            <br>
+            <button class="btn" onclick="go()">
+                go
+            </button>
+            <button class="btn" onclick="go()">
+                Random
+            </button>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
