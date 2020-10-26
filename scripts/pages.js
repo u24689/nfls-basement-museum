@@ -1,3 +1,3 @@
-function get_width() {
-    return window.innerWidth();
+function go_back() {
+    location.href = "../"
 }

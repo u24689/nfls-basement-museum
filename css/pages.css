@@ -1,5 +1,5 @@
 .pages_main_body {
-    background-image: url("../images/ib/pages_background.jpg");
+    background-image: url("../images/ib/background_pages.jpg");
     background-position: center 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -13,4 +13,39 @@
 
 .details {
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btn {
+    color: #eca29b;
+    background: #ffffffab;
+    border: 0px solid #eca29b;
+    /* border-radius: 6px; */
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 0;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 150px;
+}
+
+.main {
+    min-height: calc(100vh - 140px);
+}
+
+footer {
+    /* position: absolute;
+    bottom: 0; */
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    background-color: #66ccff3f;
+    /* margin-top: -60px; */
 }

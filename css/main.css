@@ -3,13 +3,18 @@
     background-position: center 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
     text-align: center;
     margin: 0 auto;
 }
 
 h1 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: xx-large;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(255, 0, 0, 0.205);
 }
 
 .btn {
@@ -31,8 +36,16 @@ h1 {
     width: 150px;
 }
 
-.btn1 {
-    background-color: white;
-    color: black;
-    border: 2px solid #008CBA;
+.main {
+    min-height: calc(100vh - 140px);
+}
+
+footer {
+    /* position: absolute;
+    bottom: 0; */
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    background-color: #66ccff3f;
+    /* margin-top: -60px; */
 }

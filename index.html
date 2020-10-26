@@ -11,23 +11,32 @@
 </head>
 
 <body class='main_body'>
-    <div>
+    <div class='main'>
         <h1 style="font-size: 400%;">
-            Nanjing Foreign Language School Basement Museum
+            南外地下室博物馆
         </h1>
         <div>
             <span class="input input--minoru">
-                <input class="input__field input__field--minoru" type="text" id="input">
+                <input class="input__field input__field--minoru" type="text" id="input_text" placeholder = "输入编号" onkeydown = "key_down(event)">
             </span>
             <!-- <br> -->
             <button class="btn" onclick="go()">
                 go
             </button>
-            <button class="btn" onclick="go()">
+            <button class="btn" onclick="go_random()">
                 Random
             </button>
         </div>
+
     </div>
+    <footer>
+        <p>
+            该网站正在开发中
+        </p>
+        <p>
+            contact: u24689@outlook.com
+        </p>
+    </footer>
 </body>
 
 </html>
