@@ -1,14 +1,5 @@
-function rjust(string, width, padding) {
-    padding = padding || " ";
-    padding = padding.substr(0, 1);
-    if (string.length < width)
-        return padding.repeat(width - string.length) + string;
-    else
-        return string;
-}
-
 function go() {
-    location.href = "/pages/" + rjust(input_text.value, 3, '0') + ".html"
+    location.href = "./pages/" + rjust(input_text.value, 3, '0') + ".html"
 }
 
 function go_random() {
@@ -16,7 +7,7 @@ function go_random() {
     var max = 127
     var chosen = Math.floor(Math.random() * (max - min + 1)) + min
     var res = rjust(String(chosen), 3, '0')
-    location.href = "/pages/" + res + ".html"
+    location.href = "./pages/" + res + ".html"
 }
 
 function key_down(event) {

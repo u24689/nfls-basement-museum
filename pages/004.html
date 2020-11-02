@@ -2,26 +2,48 @@
 <html>
 
 <head>
+    <title>
+        Artwork No.4
+    </title>
+    <script>
+        id = 4
+    </script>
+    <script src='../scripts/utils.js'></script>
     <script src='../scripts/pages.js'></script>
+    <link rel='stylesheet' href='../css/all.css'>
     <link rel='stylesheet' href='../css/pages.css'>
 </head>
 
 <body class='pages_main_body'>
-    <div class='main'>
+    <div class='main_container'>
         <image src='../images/004.jpg' class="pages_image"></image>
         <div class='details'>
             <p>
-                位置:
-            </p>
-            <p>
                 编号: 004
             </p>
+            <p>
+                位置: unknown
+            </p>
+            <p>
+                作者: 
+            </p>
+            <p>
+                标签: 
+            </p>
+        </div>
+        <div class = "pages_buttons">
+            <button class='btn' onclick='cycle(-1)'>
+                上一个
+            </button>
             <button class='btn' onclick='go_back()'>
                 返回
             </button>
+            <button class='btn' onclick='cycle(1)'>
+                下一个
+            </button>
         </div>
     </div>
-    <footer>
+    <footer class = 'footer'>
         <p>
             该网站正在开发中
         </p>

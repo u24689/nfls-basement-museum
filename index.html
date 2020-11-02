@@ -2,20 +2,22 @@
 <html>
 
 <head>
+    <title>
+        NFLS Basement Museum
+    </title>
     <script src='./scripts/main.js'></script>
-    <script src='./scripts/image_list.js'></script>
-    <link rel='stylesheet' href='./css/main.css'>
+    <script src='./scripts/utils.js'></script>
+    <link rel='stylesheet' href='./css/main_page.css'>
+    <link rel='stylesheet' href='./css/all.css'>
     <link rel='stylesheet' href='./css/input_fields.css'>
-    <link rel='stylesheet' href='./css/demo.css'>
-    <link rel='stylesheet' href='./css/normalize.css'>
 </head>
 
 <body class='main_body'>
-    <div class='main'>
-        <h1 style="font-size: 400%;">
+    <div class='main_container'>
+        <h1>
             南外地下室博物馆
         </h1>
-        <div>
+        <div class = 'sub_container'>
             <span class="input input--minoru">
                 <input class="input__field input__field--minoru" type="text" id="input_text" placeholder = "输入编号" onkeydown = "key_down(event)">
             </span>
@@ -29,7 +31,7 @@
         </div>
 
     </div>
-    <footer>
+    <footer class = 'footer'>
         <p>
             该网站正在开发中
         </p>
