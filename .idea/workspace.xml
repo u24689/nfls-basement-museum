@@ -34,6 +34,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1604327480002">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604327480002" />
+  </component>
   <component name="masterDetails">
     <states>
       <state key="ScopeChooserConfigurable.UI">
